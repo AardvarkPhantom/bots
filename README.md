@@ -1,7 +1,7 @@
 # Trading BOT # 
 
 ## [About the Trading BOT](../.README.MD)
-## [Unit Test](##unit-test)
+## [Unit Test](#unit-test)
 ## [Functional Test](../.README.MD)
 ## [Playwright for Automated Testing of a Trading Bot](../.README.MD)
 
@@ -35,7 +35,7 @@ If a sell signal is detected, it sells all available BTC.
 #### Note:
 This is a basic example and should not be used for live trading without thorough testing and improvements. Real trading bots need more robust error handling, risk management, and should be backtested on historical data.
 
-## Unit Test  
+## Unit Test <a name="unit-test"></a>
 ### Source file: Bot_tradingSimpleUnitTest.py
 ### Explanation of the Unit Test
 The unit tests uses the unittest library in Python. 

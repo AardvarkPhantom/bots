@@ -1,12 +1,12 @@
 # Trading BOT # 
 
-## [About the Trading BOT](../.README.MD)
+## [About the Trading BOT](#about)
 ## [Unit Test](#unit-testing)
-## [Functional Test](../.README.MD)
-## [Playwright for Automated Testing of a Trading Bot](../.README.MD)
+## [Functional Test](#functional-testing)
+## [Playwright for Automated Testing of a Trading Bot](#automation-testing)
 
 
-## About the Trading BOT
+## About the Trading BOT <a name="about"></a>
 This is a simple trading bot script using Python and the ccxt library, which is commonly used for cryptocurrency trading. 
 This bot will connect to a cryptocurrency exchange, fetch market data, and execute trades based on a simple moving average crossover strategy.
 ### Source file: Bot_tradingSimple.py 
@@ -56,7 +56,7 @@ TestTradingBot is the main test class inheriting from unittest.TestCase.
     - test_execute_trade: Mocks the execute_trade function to test if it places the correct buy and sell orders based on the signals.
 ### Running the Unit Test
 python Bot_tradingSimpleUnitTest.py
-## Functional Test
+## Functional Test  <a name="functional-testing"></a>
 ### Source file: Bot_tradingFunctionalTestCases.xlsx
 To verify the overall functionality of the trading bot, ensuring it can connect to the exchange, fetch market data, apply the trading strategy, and execute trades correctly.
 ## Functional Test Script Implementation
@@ -82,7 +82,7 @@ Mocks the execution of a sell trade and verifies the order was placed correctly.
 Verifies that the balance reflects the executed trade.
 10.	Verify Continuous Running:
 Mocks the time.sleep method to avoid actual delays and verifies the bot can run continuously, fetching new data, applying the strategy, and executing trades in a loop
-## Playwright for Automated Testing of a Trading Bot
+## Playwright for Automated Testing of a Trading Bot  <a name="automation-testing"></a>
 ### Source file: Bot_tradingSimplePlaywright.py
 Using Playwright to run an automated Python script to test a trading bot involves setting up Playwright for browser automation and integrating it with your trading bot logic. Playwright provides powerful tools to automate web interactions, which can be very useful for testing web-based components of your trading bot.
 #### Install Required Libraries
